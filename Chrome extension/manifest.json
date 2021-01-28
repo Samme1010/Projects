@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "0100100-botti",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.0100100.fi/*"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
